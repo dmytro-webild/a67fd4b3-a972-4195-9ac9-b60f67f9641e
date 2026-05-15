@@ -11,7 +11,7 @@ import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Sparkles, Home, Shield, Award, Star, Mail, TrendingUp, DollarSign, Users } from "lucide-react";
+import { Sparkles, Home, Mail, DollarSign, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -91,6 +91,7 @@ export default function LandingPage() {
       <div id="services" data-section="services">
         <FeatureCardThree
           title="Our Professional Services"
+          description="Comprehensive real estate solutions."
           textboxLayout="default"
           animationType="slide-up"
           gridVariant="uniform-all-items-equal"
@@ -106,6 +107,7 @@ export default function LandingPage() {
       <div id="team" data-section="team">
         <TeamCardOne
           title="Our Executive Leaders"
+          description="Meet the experts behind our success."
           members={[
             { id: "1", name: "Hassan Al-Maktoum", role: "Founder & CEO" },
             { id: "2", name: "Layla Al-Mansoori", role: "Managing Director" },
@@ -136,8 +138,9 @@ export default function LandingPage() {
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFive
           title="Client Perspectives"
+          description="Hear from our valued clients."
           useInvertedBackground={false}
-          cardAnimation="slide-up"
+          tagAnimation="slide-up"
           testimonials={[
             { id: "1", name: "Ahmed Al Mansouri", date: "2024-05-12", title: "Exceptional Service", quote: "The team at Luxe Properties made the process effortless.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
             { id: "2", name: "Sarah Johnson", date: "2024-06-20", title: "Luxury Expert", quote: "I found my dream penthouse thanks to their extensive network.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" }
