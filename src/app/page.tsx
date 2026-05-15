@@ -72,9 +72,9 @@ export default function LandingPage() {
           useInvertedBackground={false}
           gridVariant="uniform-all-items-equal"
           products={[
-            { id: "1", name: "Palm Jumeirah Villa", price: "AED 12.5M", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg" },
-            { id: "2", name: "Downtown Penthouse", price: "AED 8.7M", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" },
-            { id: "3", name: "Emirates Hills Home", price: "AED 6.2M", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg" }
+            { id: "1", name: "Palm Jumeirah Villa", price: "AED 12.5M", variant: "Luxury", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg" },
+            { id: "2", name: "Downtown Penthouse", price: "AED 8.7M", variant: "Modern", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" },
+            { id: "3", name: "Emirates Hills Home", price: "AED 6.2M", variant: "Classic", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg" }
           ]}
         />
       </div>
@@ -84,6 +84,7 @@ export default function LandingPage() {
           title="Crafting Legacies in Luxury Real Estate"
           tag="About Our Heritage"
           tagIcon={Sparkles}
+          useInvertedBackground={false}
         />
       </div>
 
@@ -93,6 +94,7 @@ export default function LandingPage() {
           textboxLayout="default"
           animationType="slide-up"
           gridVariant="uniform-all-items-equal"
+          useInvertedBackground={false}
           features={[
             { title: "Property Selection", description: "Access to off-market homes.", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
             { title: "Investment Advisory", description: "Data-driven insights.", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg" },
@@ -105,11 +107,13 @@ export default function LandingPage() {
         <TeamCardOne
           title="Our Executive Leaders"
           members={[
-            { id: "1", name: "Hassan Al-Maktoum" },
-            { id: "2", name: "Layla Al-Mansoori" },
-            { id: "3", name: "Marcus Wellington" }
+            { id: "1", name: "Hassan Al-Maktoum", role: "Founder & CEO" },
+            { id: "2", name: "Layla Al-Mansoori", role: "Managing Director" },
+            { id: "3", name: "Marcus Wellington", role: "Lead Consultant" }
           ]}
-          memberVariant="card"
+          gridVariant="uniform-all-items-equal"
+          animationType="slide-up"
+          textboxLayout="default"
           useInvertedBackground={false}
         />
       </div>
@@ -117,6 +121,9 @@ export default function LandingPage() {
       <div id="metrics" data-section="metrics">
         <MetricCardThree
           title="Proven Performance"
+          description="We have successfully facilitated transactions across major luxury hubs in Dubai."
+          textboxLayout="default"
+          useInvertedBackground={false}
           metrics={[
             { id: "1", icon: Home, title: "Properties", value: "450+" },
             { id: "2", icon: Users, title: "Clients", value: "650+" },
@@ -129,11 +136,12 @@ export default function LandingPage() {
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFive
           title="Client Perspectives"
-          testimonials={[
-            { id: "1", name: "Ahmed Al Mansouri", imageSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg" },
-            { id: "2", name: "Sarah Johnson", imageSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg?id=13871705" }
-          ]}
+          useInvertedBackground={false}
           cardAnimation="slide-up"
+          testimonials={[
+            { id: "1", name: "Ahmed Al Mansouri", date: "2024-05-12", title: "Exceptional Service", quote: "The team at Luxe Properties made the process effortless.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
+            { id: "2", name: "Sarah Johnson", date: "2024-06-20", title: "Luxury Expert", quote: "I found my dream penthouse thanks to their extensive network.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" }
+          ]}
         />
       </div>
 
@@ -143,6 +151,7 @@ export default function LandingPage() {
           title="Discuss Your Property Ambitions"
           description="Our private consultants are available to assist with your inquiries."
           background={{ variant: "sparkles-gradient" }}
+          useInvertedBackground={false}
         />
       </div>
 
