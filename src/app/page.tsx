@@ -140,6 +140,7 @@ export default function LandingPage() {
           title="Client Perspectives"
           description="Hear from our valued clients."
           useInvertedBackground={false}
+          textboxLayout="default"
           tagAnimation="slide-up"
           testimonials={[
             { id: "1", name: "Ahmed Al Mansouri", date: "2024-05-12", title: "Exceptional Service", quote: "The team at Luxe Properties made the process effortless.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
