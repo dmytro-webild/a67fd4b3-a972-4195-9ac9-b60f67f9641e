@@ -49,7 +49,7 @@ export default function LandingPage() {
           tag="Premium Collections"
           tagIcon={Sparkles}
           buttons={[
-            { text: "Explore Properties", href: "#properties" },
+            { text: "View Exclusive Listings", href: "#properties" },
             { text: "Contact Agent", href: "#contact" }
           ]}
           mediaItems={[
