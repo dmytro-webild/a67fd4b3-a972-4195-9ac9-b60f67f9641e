@@ -53,9 +53,9 @@ export default function LandingPage() {
             { text: "Contact Agent", href: "#contact" }
           ]}
           mediaItems={[
-            { imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
-            { imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg" },
-            { imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" }
+            { imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=1" },
+            { imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=1" },
+            { imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=1" }
           ]}
           mediaAnimation="slide-up"
         />
@@ -72,8 +72,8 @@ export default function LandingPage() {
           useInvertedBackground={false}
           gridVariant="uniform-all-items-equal"
           products={[
-            { id: "1", name: "Palm Jumeirah Villa", price: "AED 12.5M", variant: "Luxury", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg" },
-            { id: "2", name: "Downtown Penthouse", price: "AED 8.7M", variant: "Modern", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" },
+            { id: "1", name: "Palm Jumeirah Villa", price: "AED 12.5M", variant: "Luxury", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=2" },
+            { id: "2", name: "Downtown Penthouse", price: "AED 8.7M", variant: "Modern", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=2" },
             { id: "3", name: "Emirates Hills Home", price: "AED 6.2M", variant: "Classic", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg" }
           ]}
         />
@@ -97,9 +97,9 @@ export default function LandingPage() {
           gridVariant="uniform-all-items-equal"
           useInvertedBackground={false}
           features={[
-            { title: "Property Selection", description: "Access to off-market homes.", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
-            { title: "Investment Advisory", description: "Data-driven insights.", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg" },
-            { title: "Closing Services", description: "Seamless transactions.", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" }
+            { title: "Property Selection", description: "Access to off-market homes.", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=2" },
+            { title: "Investment Advisory", description: "Data-driven insights.", imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=3" },
+            { title: "Closing Services", description: "Seamless transactions.", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=3" }
           ]}
         />
       </div>
@@ -143,8 +143,8 @@ export default function LandingPage() {
           textboxLayout="default"
           tagAnimation="slide-up"
           testimonials={[
-            { id: "1", name: "Ahmed Al Mansouri", date: "2024-05-12", title: "Exceptional Service", quote: "The team at Luxe Properties made the process effortless.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg" },
-            { id: "2", name: "Sarah Johnson", date: "2024-06-20", title: "Luxury Expert", quote: "I found my dream penthouse thanks to their extensive network.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg" }
+            { id: "1", name: "Ahmed Al Mansouri", date: "2024-05-12", title: "Exceptional Service", quote: "The team at Luxe Properties made the process effortless.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg", imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=3" },
+            { id: "2", name: "Sarah Johnson", date: "2024-06-20", title: "Luxury Expert", quote: "I found my dream penthouse thanks to their extensive network.", tag: "Verified", avatarSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg", imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=4" }
           ]}
         />
       </div>
